@@ -1,0 +1,75 @@
+.app {
+  background: #bccad6;
+  height: 300vh;
+  padding: 30px;
+}
+.contain{
+  text-align: center;
+  max-width:100%;
+  height:auto;
+  width: 100%;
+  position: relative;
+  margin:0 auto;
+}
+
+
+.todo-list {
+  background: #8d9db6;
+  border-radius: 4px;
+  max-width: 500px;
+  padding: 15px;
+  font-family: Arial;
+  margin: 0 auto;
+  width: 800vh;
+}
+
+.todo {
+  align-items: center;
+  background: #f0f0f0;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+}
+button {
+  -webkit-appearance: button;
+  /* -webkit-writing-mode: horizontal-tb !important; */
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: buttonface;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 11px system-ui;
+  padding: 1px 7px 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-image: initial;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  box-Shadow: 0 0.5px 0.5px 0.5px rgba(255, 105, 135, .3);
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.h3{ 
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #4a4355;
+  text-align:center;
+	
+}
